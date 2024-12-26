@@ -1,0 +1,460 @@
+:root{
+    --MainColor : #ff914d;
+    --HoverMainColor : #e28246;
+    --SecondColor : #b20000;
+    --HoverSecondColor : #910505;
+    --BoldTextColor : #444444;
+    --normalTextColor : #737373;
+    --TextColor : #000000;
+    --Gray : #F0F0F0;
+    --White : #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;;
+}
+
+/*------ Header ------*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    background-color: black;
+}
+
+#mainLogo{
+
+    width: 100px;
+
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+header nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#mainHeaderSearch{
+    display: flex;
+    gap: 10px;
+}
+#mainHeaderSearch form{
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding: 0 5px;
+    gap: 10px;
+    background-color: var(--Gray);
+}
+
+
+#mainHeaderSearch form select,#mainHeaderSearch form input{
+    background-color: var(--Gray);
+    border: none;
+}
+
+#mainHeaderSearch form .verticalLine{
+    width: 1px;
+    height: 60%;
+    background-color: #000000;
+}
+
+
+
+#mainHeaderSearch button{
+    background-color: var(--MainColor);
+    color: var(--TextColor);
+    border: none;
+    width: 100px;
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*------ End Header ------*/
+
+/*------ Main Section ------*/
+
+#mainSection{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/resturantBack.jpg);
+    background-position: center;
+
+}
+
+#mainSection #blackOverflow{
+    width: 100%;
+    height: 100%;
+    background-color: #000000ba;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#mainSection #blackOverflow h1{
+    font-family: "Inter", serif;
+    width: 70%;
+    text-align: center;
+    color: var(--White);
+    font-size: 36px;
+
+}
+
+#mainSection #blackOverflow .button{
+    font-family: "Inter", serif;
+    width: 10%;
+    height: 35px;
+    background-color: var(--MainColor);
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--TextColor);
+
+}
+
+/*------ End Main Section ------*/
+
+/*------ Restaurants Carts Container ------*/
+
+.RestaurantsCartsContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+    gap: 3%;
+}
+
+.restaurantsCartTitle {
+    width: 100%;
+    text-align: center;
+}
+
+.RestaurantsCartsContainer .restaurantsCart{
+
+    width: 20%;
+    height: 370px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 15px #0000002e;
+    margin: 16px 0;
+    padding-bottom: 8px;
+    cursor: pointer;
+    transition: transform 0.6s;
+
+}
+
+.RestaurantsCartsContainer .restaurantsCart:hover{
+    transform: scale(1.05);
+}
+
+
+
+  
+.RestaurantsCartsContainer .restaurantsCart img{
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.RestaurantsCartsContainer .restaurantsCart h3{
+    margin: 5px 8px;
+    color: var(--BoldTextColor);
+    
+}
+
+.RestaurantsCartsContainer .restaurantsCart .specialityParagraph{
+    margin: 0 8px 16px 8px;
+}
+
+.RestaurantsCartsContainer .restaurantsCart p{
+    margin: 0 8px;
+    color: var(--normalTextColor);
+}
+
+.RestaurantsCartsContainer .restaurantsCart .line{
+    width: 90%;
+    height: 1px;
+    background-color: #e8e8e8;
+    border: none;
+}
+
+.RestaurantsCartsContainer .restaurantsCart .reviewsContainer{
+    display: flex;
+    width: 100%;
+}
+
+.RestaurantsCartsContainer .restaurantsCart .reviewsContainer .ratingContainer{
+    width: 40%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.RestaurantsCartsContainer .restaurantsCart .reviewsContainer .ratingContainer div img{
+    height: 20px;
+    width: 20px;
+} 
+
+.RestaurantsCartsContainer .restaurantsCart .reviewsContainer .ratingContainer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+} 
+
+.RestaurantsCartsContainer .restaurantsCart .reviewsContainer .ratingContainer div .hrHorizontal{
+    width: 1px;
+    height: 25px;
+    background-color: #e8e8e8;
+    margin-left: 16px;
+} 
+
+.RestaurantsCartsContainer .restaurantsCart .AddressContainer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RestaurantsCartsContainer .restaurantsCart .AddressContainer p{
+    color: var(--normalTextColor);
+}
+
+/*------ End Restaurants Carts Container ------*/
+
+/*------ restaurant.html Page------*/
+
+.restaurantDetail{
+
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    margin-top: 12vh;
+    padding: 0 32px;
+    box-sizing: border-box;
+    gap: 20px;
+
+}
+
+.restaurantDetail .RestaurantMainImage{
+
+    width: 30%;
+    height: 70%;
+
+}
+
+.restaurantDetail .RestaurantMainImage img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+
+}
+.restaurantDetail .RestaurantMainImage .ButtonsContainer{
+
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+
+}
+
+.restaurantDetail .RestaurantMainImage .ButtonsContainer button{
+
+    width: 50%;
+    height: 70%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+
+}
+
+.restaurantDetail .RestaurantMainImage .ButtonsContainer #websiteBtn{
+
+    background-color: var(--MainColor);
+    color: var(--TextColor);
+    transition: transform 0.6s ease;
+
+}
+
+.restaurantDetail .RestaurantMainImage .ButtonsContainer #websiteBtn:hover{
+
+    transform: scale(1.03);
+    background-color: var(--HoverMainColor);
+
+}
+
+.restaurantDetail .RestaurantMainImage .ButtonsContainer #callBtn{
+
+    background-color: var(--SecondColor);
+    color: var(--White);
+    transition: transform 0.6s ease;
+
+}
+
+.restaurantDetail .RestaurantMainImage .ButtonsContainer #callBtn:hover{
+
+    transform: scale(1.03);
+    background-color: var(--HoverSecondColor);
+
+}
+
+
+.restaurantDetail .RestaurantMainTexts{
+
+    width: 70%;
+    height: 70%;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+
+.restaurantDetail .RestaurantMainTexts h1{
+
+    font-size: 2rem;
+    margin: 0 0 16px 0;
+
+}
+
+.restaurantDetail .RestaurantMainTexts .RatingDiv{
+
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.restaurantDetail .RestaurantMainTexts .RatingDiv div{
+
+    
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.restaurantDetail .RestaurantMainTexts .RatingDiv .restauSpeciality{
+
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 0 8px;
+
+}
+
+.restaurantDetail .RestaurantMainTexts .RatingDiv div h3{
+
+
+
+}
+.restaurantDetail .RestaurantMainTexts .RatingDiv div img{
+    width: 18%;
+}
+
+.restaurantDetail .RestaurantMainTexts .RatingDiv .hrVertical{
+
+    width: 1px; 
+    
+    height: 30%;
+    background-color: #000000;
+}
+
+.restaurantDetail .RestaurantMainTexts .addressDiv{
+
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.restaurantDetail .RestaurantMainTexts .descriptionDiv{
+
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.restaurantDetail .RestaurantMainTexts .descriptionDiv h3{
+    margin: 0;
+}
+
+.reviewContainer{
+    display: flex;
+    width: 100%;
+    height: 8%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.reviewContainer form{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.reviewContainer button{
+    width: 20%;
+    height: 60%;
+}
+
+.reviewContainer form input{
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 16px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.reviewContainer form select{
+     width: 20%;
+     height: 100%;
+}
+
+/*------ restaurant.html Page------*/

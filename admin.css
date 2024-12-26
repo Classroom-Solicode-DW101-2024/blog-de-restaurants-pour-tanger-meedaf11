@@ -1,0 +1,317 @@
+:root{
+    --MainColor : #ff914d;
+    --HoverMainColor : #e28246;
+    --SecondColor : #b20000;
+    --HoverSecondColor : #910505;
+    --BoldTextColor : #444444;
+    --normalTextColor : #737373;
+    --TextColor : #000000;
+    --Gray : #F0F0F0;
+    --White : #ffffff;
+    --boxShadowColor : #0000002e;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+
+    width: 100%;
+    display: flex;
+
+}
+
+main aside{
+    width: 20%;
+    height: 100vh;
+    background-color: var(--MainColor);
+    box-shadow: 0 1px 12px var(--boxShadowColor);
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+
+main aside .dashboard{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    cursor: pointer;
+    gap: 28px;
+    box-sizing: border-box;
+    padding-left: 16px;
+}
+
+main aside .horizontalLine{
+    width: 90%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    height: 0.5px;
+    background-color: var(--TextColor);
+}
+
+main aside .dashboard img{
+    height: 60%;
+}
+
+main aside .dashboard h4{
+    margin: 0;
+}
+
+main .dashboardContainer{
+    width: 80%;
+    height: 100vh;
+    background-color:rgb(245, 245, 245);
+    box-sizing: border-box;
+}
+
+/*------ overView Start ------*/
+
+main .dashboardContainer .overviewContent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .dashboardContainer .overviewContent .overviewMainCartContainer{
+    width: 95%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .dashboardContainer .overviewContent .overviewMainCartContainer .overviewMainCart{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 12px var(--boxShadowColor);
+}
+
+main .dashboardContainer .overviewContent .overviewMainCartContainer .overviewMainCart h3{
+
+    text-align: center;
+    margin: 0;
+
+}
+
+main .dashboardContainer .overviewContent .overviewMainCartContainer .overviewMainCart p{
+
+    text-align: center;
+    margin: 0;
+
+}
+
+main .dashboardContainer .overviewContent .overviewMainRestaurantsList{
+    width: 95%;
+    height: 65%;
+    max-height: 65%;
+    box-shadow: 1px 1px 12px var(--boxShadowColor);
+    border-radius: 6px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+main .dashboardContainer .overviewContent .overviewMainRestaurantsList .overflowRestaurantCart{
+
+    width: 95%;
+    min-height: 22%;
+    max-height: 22%;
+    border-radius: 6px;
+    background-color: #e4e4e4;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+
+}
+
+main .dashboardContainer .overviewContent .overviewMainRestaurantsList .overflowRestaurantCart img{
+    height: 100%;
+    width: 130px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+main .dashboardContainer .overviewContent .overviewMainRestaurantsList .overflowRestaurantCart .overflowRestaurantCartButtons{
+    position: absolute;
+    margin-right: 16px;
+    right: 0;
+}
+
+main .dashboardContainer .overviewContent .overviewMainRestaurantsList .overflowRestaurantCart .overflowRestaurantCartButtons button{
+    width: 100px;
+    height: 40px;
+    color: var(--TextColor);
+    border: none;
+    border-radius: 6px;
+}
+
+main .dashboardContainer .overviewContent .overviewMainRestaurantsList .overflowRestaurantCart .overflowRestaurantCartButtons .overflowRestaurantCartEditBtn{
+
+    background-color: var(--MainColor);
+
+}
+main .dashboardContainer .overviewContent .overviewMainRestaurantsList .overflowRestaurantCart .overflowRestaurantCartButtons .overflowRestaurantCartDeleteBtn{
+    background-color: var(--SecondColor);
+    color: white;
+
+}
+
+
+
+main .dashboardContainer .overviewContent #overviewMainRestaurantsList {
+   
+
+}
+
+main .dashboardContainer .overviewContent #overviewMainAddNewRestaurant {
+   
+    
+    display: none;
+
+
+}
+
+main .dashboardContainer .overviewContent #overviewMainAddNewRestaurant form{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+main .dashboardContainer .overviewContent #overviewMainAddNewRestaurant h3{
+   
+    margin: 8px;
+
+}
+
+main .dashboardContainer .overviewContent #overviewMainAddNewRestaurant form .inputsContainers{
+   
+    width: 100%;
+    height: 32px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+main .dashboardContainer .overviewContent #overviewMainAddNewRestaurant form .inputsContainers p{
+   
+    position: absolute;
+    left: 90%;
+    font-size: 8px;
+    color: var(--SecondColor);
+    display: none;
+
+}
+
+main .dashboardContainer .overviewContent #overviewMainAddNewRestaurant form .addNewRestaurantInput{
+   
+    width: 70%;
+    height: 32px;
+    padding: 0 16px;
+    border-radius: 6px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+
+}
+
+main .dashboardContainer .overviewContent #overviewMainAddNewRestaurant button{
+   
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: var(--MainColor);
+    border-radius: 6px;
+    color: var(--TextColor);
+    cursor: pointer;
+}
+
+
+#overviewMainEditRestaurant{
+    display: none;
+}
+
+#overviewMainEditRestaurant h3{
+
+    margin: 8px;
+    
+}
+
+#overviewMainEditRestaurant form{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+#overviewMainEditRestaurant form .addNewRestaurantInput{
+
+    width: 70%;
+    height: 32px;
+    padding: 0 16px;
+    border-radius: 6px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+#overviewMainEditRestaurant button{
+
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: var(--MainColor);
+    border-radius: 6px;
+    color: var(--TextColor);
+    cursor: pointer;
+    
+}
+
+
+
+/*------ End overView  ------*/

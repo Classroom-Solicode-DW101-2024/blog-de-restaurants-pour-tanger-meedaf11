@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+    <main>
+
+        <aside>
+
+            <div class="horizontalLine"></div>
+            <div class="dashboard" id="dashboardOverView">
+
+                <img src="img/overview.svg" alt="">
+                <h4>Overview</h4>
+
+
+            </div>
+
+            <div class="horizontalLine"></div>
+
+            <div class="dashboard" id="dashboardEdit">
+
+                <img src="img/editer.svg" alt="">
+                <h4>Edit Restaurant</h4>
+
+
+            </div>
+            <div class="horizontalLine"></div>
+
+            <div class="dashboard" id="dashboardAdd">
+
+                <img src="img/add.svg" alt="">
+                <h4>Add Restaurant</h4>
+
+
+            </div>
+            <div class="horizontalLine"></div>
+
+
+        </aside>
+
+        <section class="dashboardContainer">
+
+            <div class="overviewContent">
+
+                <div class="overviewMainCartContainer">
+
+
+                    <div class="overviewMainCart">
+
+                        <h3>Back To Website</h3>
+                        <button id="goToHomeBtn">Go</button>
+
+                    </div>
+
+                    <div class="overviewMainCart">
+
+                        <h3>Total Restaurants</h3>
+                        <p id="totalRestaurantContainer">0</p>
+
+                    </div>
+
+                    <div class="overviewMainCart">
+
+                        <h3>Add New Restaurant</h3>
+                        <button id="goToAddNewRestBtn">Add</button>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="overviewMainRestaurantsList" id="overviewMainRestaurantsList">
+
+
+
+                </div>
+
+                <div class="overviewMainRestaurantsList" id="overviewMainAddNewRestaurant">
+
+                    <h3>Add New Restaurants</h3>
+                    <form>
+
+                        <div class="inputsContainers">
+
+                            <input type="text" placeholder="Name" class="addNewRestaurantInput"
+                                id="addNewRestaurantName">
+                            <p id="invalidName">1</p>
+
+                        </div>
+                        <div class="inputsContainers">
+
+                            <input type="text" placeholder="Description" class="addNewRestaurantInput"
+                                id="addNewRestaurantDescription">
+                            <p id="invalidDescription">1</p>
+
+                        </div>
+                        <div class="inputsContainers">
+
+                            <input type="text" placeholder="Speciality" class="addNewRestaurantInput"
+                                id="addNewRestaurantSpeciality">
+                            <p id="invalidSpeciality">1</p>
+
+                        </div>
+                        <div class="inputsContainers">
+
+                            <input type="tel" placeholder="PhoneNumber" class="addNewRestaurantInput"
+                                id="addNewRestaurantPhoneNumber">
+                            <p id="invalidPhoneNumber">1</p>
+
+                        </div>
+                        <div class="inputsContainers">
+
+                            <input type="text" placeholder="Address" class="addNewRestaurantInput"
+                                id="addNewRestaurantAddress">
+                            <p id="invalidAddress">1</p>
+
+                        </div>
+                        <div class="inputsContainers">
+
+                            <input type="text" placeholder="Website" class="addNewRestaurantInput"
+                                id="addNewRestaurantWebsite">
+                            <p id="invalidWebsite">1</p>
+
+                        </div>
+
+                        <div class="inputsContainers">
+
+                            <input type="text" placeholder="Image Url" class="addNewRestaurantInput"
+                                id="addNewRestaurantImageUrl">
+                            <p id="invalidImageUrl">1</p>
+
+                        </div>
+
+                    </form>
+
+                    <button onclick="AddNewRestaurant()">Add</button>
+
+                </div>
+
+                <div class="overviewMainRestaurantsList" id="overviewMainEditRestaurant">
+
+                    <h3>Edit Restaurant</h3>
+                    <form>
+
+                        
+
+                            <input type="text" placeholder="Name" class="addNewRestaurantInput" id="editRestaurantName">
+                    
+
+                            <input type="text" placeholder="Description" class="addNewRestaurantInput" id="editRestaurantDescription">
+                            
+          
+
+                            <input type="text" placeholder="Speciality" class="addNewRestaurantInput"  id="editRestaurantSpeciality">
+       
+
+                            <input type="tel" placeholder="PhoneNumber" class="addNewRestaurantInput"  id="editRestaurantPhoneNumber">
+
+
+                            <input type="text" placeholder="Address" class="addNewRestaurantInput" id="editRestaurantAddress">
+
+                            <input type="text" placeholder="Website" class="addNewRestaurantInput" id="editRestaurantWebsite">
+
+                            <input type="text" placeholder="Image Url" class="addNewRestaurantInput" id="editRestaurantImageUrl">
+
+                    </form>
+
+                    <button onclick="newRestaurantValue()">Edit</button>
+
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+
+    </main>
+
+
+
+
+
+    <script src="admin.js"></script>
+</body>
+
+</html>

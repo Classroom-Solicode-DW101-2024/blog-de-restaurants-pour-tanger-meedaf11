@@ -1,0 +1,269 @@
+[
+  {
+    "Name": "El Morocco Club",
+    "Description": "Lorsque les cultures se rencontrent, l'espace s'ouvre aux processus créatifs. Le chef Noureddine Zaoujal accueille les amateurs de bon goût avec des interprétations culinaires fraîches des classiques traditionnels marocains. Le menu reflète la riche variété des ingrédients marocains : du foie gras sur Razat El Khadi (pâtisserie traditionnelle aux cheveux d'ange), aux huîtres, à la crème brûlée au safran et à la pastilla à la fleur d'oranger. A l'entrée de la kasbah, le Café Terrasse By El Morocco Club est idéal pour une pause dans la vibrante Tanger.",
+    "Adresse": "Place du Tabor, Kasbah, Tanger",
+    "Speciality": "Moroccan and international Food",
+    "Rating": 2.9,
+    "Reviews": [
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 3.2
+      },
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 4.4
+      }
+    ],
+    "Website": "http://www.elmoroccoclub.com",
+    "PhoneNumber": "+212 5393-70239",
+    "Image": "img/el-morocco-club.jpg"
+  },
+  {
+    "Name": "Le Saveur du Poisson",
+    "Description": "Une institution non seulement à Tanger, mais dans tout le pays pour son intérieur obscurci par la fumée de bois et ses déjeuners de fruits de mer. L'antithèse même de la lumière presque aveuglante qui définit cette ville, Le Saveur est niché dans un coin d'un escalier raide qui descend de l'ancien Marché Central à la nouvelle ville, distingué par les couronnes d'ail et les paniers de légumes qui s'empilent autour de la porte. À l'intérieur, un microcosme de la vie de Tanger se dévoile au rythme d'un menu qui commence par du pain chaud, des olives et une sauce harissa épicée, suivi d'une fritura de calamars et d'anchois, de soupes de poisson garnies de palourdes et de copieux plateaux de merlu, de lotte et de rouget, et se termine par une salade de fruits et un couscous sucré. - Tara Stevens, rédactrice culinaire spécialisée dans le Maroc et l'Espagne",
+    "Adresse": "2 Escalier Waller, Tanger",
+    "Speciality": "seafood",
+    "Rating": 2,
+    "Reviews": [
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 3.9
+      },
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 3
+      }
+    ],
+    "Website": null,
+    "PhoneNumber": "+212 661-230645",
+    "Image": "img/le-saveur-du-poisson.jpg"
+  },
+  {
+    "Name": "Café Hafa",
+    "Description": "Le café Hafa symbolise le Tanger le plus international, bohème et libertaire. Il a célébré son centenaire en 2021, et des personnalités aussi illustres que les Rolling Stones ou les écrivains Paul Bowles, Juan Goytisolo et William S. Burroughs se sont assis à ses tables. En effet, il fut un temps où le Café Hafa produisait l’effet d’un puissant aimant pour les personnalités bohèmes et créatives du monde entier. ",
+    "Adresse": "Rue Hafa, Tanger",
+    "Speciality": "Moroccan tea and light sweets",
+    "Rating": 1,
+    "Reviews": [
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 1
+      },
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 2.5
+      }
+    ],
+    "Website": null,
+    "PhoneNumber": "+212 5393-21500",
+    "Image": "img/cafe-hafa.jpg"
+  },
+  {
+    "Name": "Le Relais de Paris",
+    "Description": "le Relais de Paris a signe son grand retour à Tanger pour redonner plaisir aux Tangérois et aux étrangers installés dans la nouvelle métropole. La cuisine française, raffinée et reconnue comme l’une des meilleures cuisines au niveau mondial, pour ne pas dire que c’est la meilleure gastronomie, revient en force dans la capitale du Nord du Maroc et fait de l’hôtel Kenzi Solazur sa nouvelle adresse.",
+    "Adresse": "Avenue Mohammed VI, Tanger",
+    "Speciality": "French food",
+    "Rating": 1.5,
+    "Reviews": [
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 2.1
+      },
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 4.6
+      }
+    ],
+    "Website": "http://www.lerelaisdeparis.ma",
+    "PhoneNumber": "+212 5393-00700",
+    "Image": "img/relais-de-paris-kenzi.jpg"
+  },
+  {
+    "Name": "La Table du Marché",
+    "Description": "C'est au sein de la marina de Tanger que l'enseigne marrakchie a choisi d'implanter un double restaurant de 1.400 m2, à l'image de celui de Marrakech qui a fait sa réputation, mais en plus grand. La Table du marché à la marina est le tout dernier joyau de la chaîne . Un emplacement idéal, dominant la baie de Tanger, pour cette 11e boutique marocaine de l'enseigne qui offre près de 500 couverts.",
+    "Adresse": "Hilton Tanger City Center, Tangier",
+    "Speciality": "International Cuisine",
+    "Rating": 4.5,
+    "Reviews": [
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 3.2
+      },
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 4
+      }
+    ],
+    "Website": "http://www.latabledumarche.ma",
+    "PhoneNumber": "+212 5393-09000",
+    "Image": "img/la-table-du-marche-tanger.jpg"
+  },
+  {
+    "Name": "Casa d'Italia",
+    "Description": "Casa d'Italia est un restaurant italien emblématique situé au cœur de Tanger. Il se distingue par son ambiance chaleureuse et son décor élégant, reflétant le riche héritage de l'Italie. Le restaurant propose une large gamme de plats italiens authentiques, tels que des pizzas cuites au feu de bois, des pâtes fraîches et des spécialités de fruits de mer. Reconnu pour son service impeccable et son atmosphère accueillante, c'est l'endroit idéal pour vivre une expérience italienne unique en famille ou entre amis.",
+    "Adresse": "Rue Amrah, Tangier",
+    "Speciality": "Italian food",
+    "Rating": 4.6,
+    "Reviews": [
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 4.4
+      },
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 4.5
+      }
+    ],
+    "Website": null,
+    "PhoneNumber": "+212 661-451112",
+    "Image": "img/sala-del-restaurante.jpg"
+  },
+  {
+    "Name": "Darna Restaurant",
+    "Description": "Darna Restaurant est un restaurant situé à Tanger qui marie les saveurs authentiques locales à une ambiance conviviale. Il propose une variété de plats traditionnels marocains tels que le tajine, le couscous, et le thé à la menthe, le tout dans un cadre chaleureux qui reflète la culture marocaine authentique. C’est l’endroit idéal pour savourer une expérience culinaire typique, que ce soit pour les habitants ou les visiteurs en quête de l’essence unique de Tanger.",
+    "Adresse": "Rue Sidi Bouabid, Tangier",
+    "Speciality": "Moroccan Cuisine",
+    "Rating": 4.2,
+    "Reviews": [
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 2.9
+      },
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 4.3
+      }
+    ],
+    "Website": null,
+    "PhoneNumber": "+212 5393-56789",
+    "Image": "img/edificio-asociacion.jpg"
+  },
+  {
+    "Name": "Osky's Tangier",
+    "Description": "Osky's Tangier est un restaurant moderne et unique à Tanger, offrant un mélange de saveurs internationales avec une touche locale. Il est réputé pour ses plats créatifs, notamment des burgers, des pâtes et des grillades, accompagnés d'une large sélection de boissons rafraîchissantes. Avec son ambiance élégante et contemporaine, c’est un lieu prisé par les jeunes et les familles. Si vous recherchez une expérience culinaire originale à Tanger, Osky's Tangier est le choix parfait.",
+    "Adresse": "Avenue Youssef Ibn Tachfine, Tangier",
+    "Speciality": "Burgers and Fast Food",
+    "Rating": 4.1,
+    "Reviews": [
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 4.5
+      },
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 2.3
+      }
+    ],
+    "Website": "http://www.oskys.ma",
+    "PhoneNumber": "+212 5393-09022",
+    "Image": "img/interieur-du-osky-s-restaurant.jpg"
+  },
+  {
+    "Name": "The Tanger Inn",
+    "Description": "The Tanger Inn est un restaurant et café doté d’un charme historique unique à Tanger. Alliant un style classique avec une touche moderne, c'est une adresse prisée pour savourer des collations, des boissons rafraîchissantes et des plats inspirés de la cuisine locale et internationale. Avec sa vue imprenable et son atmosphère relaxante, c'est l'endroit idéal pour une pause tranquille, seul ou entre amis.",
+    "Adresse": "Avenue d'Espagne, Tangier",
+    "Speciality": "International Cuisine",
+    "Rating": 2.8,
+    "Reviews": [
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 4.6
+      },
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 4.3
+      }
+    ],
+    "Website": null,
+    "PhoneNumber": "+212 661-303050",
+    "Image": "img/the-tanger-inn-front.jpg"
+  },
+  {
+    "Name": "Restaurant Al Maimouni",
+    "Description": "Restaurant Al Maimouni est l’un des restaurants les plus réputés de Tanger, connu pour ses plats marocains traditionnels avec une touche raffinée. Il se distingue par son ambiance authentique, mettant en valeur le patrimoine marocain à travers une décoration traditionnelle et un service élégant. Le menu offre une variété de tajines, couscous, mezzés marocains, ainsi que des desserts locaux et du thé à la menthe. C’est une destination idéale pour savourer la cuisine marocaine dans un cadre à la fois authentique et enchanteur.",
+    "Adresse": "Rue Dar Dbagh, Tangier 90000 Morocco",
+    "Speciality": "Moroccan cuisine",
+    "Rating": 2,
+    "Reviews": [
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 3.5
+      },
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 2
+      }
+    ],
+    "Website": "https://web.facebook.com/Restaurant-Al-Maimouni-1793723127603319-مطعم-ألميموني/",
+    "PhoneNumber": "+212 774-267947",
+    "Image": "img/restaurant-al-maimouni.jpg",
+    "id": 1734689299150
+  },
+  {
+    "Name": "Crumby",
+    "Description": "Crumby offers an exceptional dining experience. We are located in the vibrant Iberia area not far from old town. We provide quality and excellence through balanced, healthful, delectable cuisine, artisanal baking, and specialty coffee. We believe that every meal nurtures both body and soul. Our menu features distinctive breakfast and brunch options, artisanal toasties, sandwiches, and nourishing lunch bowls, all made with locally sourced, seasonal ingredients. We cater to diverse dietary preferences, including meat lovers, vegans, gluten-free, and vegetarians. Our bakery is dedicated to honest artisanal baking. From crusty sourdough to decadent pastries, every item is crafted with love. Our menu includes cheesecakes, buns, cupcakes, layer cakes, cookies, and muffins, showcasing our commitment to distinctive taste. With our Specialty Coffee, we embrace the artistry of coffee-making. Whether you enjoy a classic espresso or unique coffee creations, each cup promises a sensory delight.",
+    "Adresse": "Rue de Grenade - Quartier Iberia., Tangier Morocco",
+    "Speciality": "Moroccan Food",
+    "Rating": 3,
+    "Reviews": [
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 3.5
+      },
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 2
+      }
+    ],
+    "Website": "https://crumby.ma/",
+    "PhoneNumber": "+212 5393-34973",
+    "Image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/4c/47/6d/located-not-far-from.jpg?w=1400&h=800&s=1",
+    "id": 1735226689874
+  },
+  {
+    "Name": "Anna & Paolo",
+    "Description": "errasse des Paresseux doit absolument être visitée avant un délicieux repas dans ce restaurant. Les cuisines cuisine italienne et méditerranéenne créées par un chef populaire sont magnifiques à cet endroit. Vous allez vraiment apprécier un ravioli savoureux. Passez du bon temps ici et partagez un gelato fascinant avec vos amis. Après une longue journée de travail, vous pouvez goûter un vin délicieux. Selon les opinions des visiteurs, les serveurs offrent un café bon ici.  L'atmosphère chaleureuse de Anna e Paolo permet aux invités de se reposer après une longue journée de travail. Un personnel conciliant montre un haut niveau d'hospitalité dans ce lieu. Un service énorme est ce que les clients aiment ici. On vous recommande aussi cet endroit car il propose un prix adéquat. Les clients de cet endroit sont entourés par un décor moderne. Ce restaurant a obtenu le score de 4.1 dans le système de notation de Google.",
+    "Adresse": "Avenue Lafayette angle Prince Héritier derriere hotel Chellah, Tangier 90000 Morocco",
+    "Speciality": "Italian Food",
+    "Rating": 3,
+    "Reviews": [
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 3.5
+      },
+      {
+        "User": "",
+        "Comment": "",
+        "Rating": 2
+      }
+    ],
+    "Website": "http://www.annaepaolo.ma/",
+    "PhoneNumber": "+212 5399-44617",
+    "Image": "img/anna-et-paolo.jpg",
+    "id": 1735247840732
+  }
+]

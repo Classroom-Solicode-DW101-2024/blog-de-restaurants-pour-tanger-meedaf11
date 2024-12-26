@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturants Tangier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+        <img id="mainLogo" src="img/logo.png" alt="meedafilal Resturant Logo">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+
+        <div id="mainHeaderSearch">
+
+            <form>
+                <select name="Filter" id="filtreSearch">
+                    <option value="" selected disabled>Filter By</option>
+                    <option value="KeyWord">Keyword</option>
+                    <option value="Name">Name</option>
+                    <option value="Speciality">Speciality</option>
+                    <option value="Rating">Rating</option>
+                </select>
+
+                <div class="verticalLine"></div>
+
+                <input type="text" id="searchBar" placeholder="Search">
+            </form>
+
+            <button onclick="Search()">Search</button>
+
+        </div>
+
+    </header>
+
+    <section id="mainSection">
+        <div id="blackOverflow">
+
+            <h1>Discover the Best Restaurants in Tangier: A Culinary Journey Awaits!</h1>
+            <a class="button" href="#RestaurantsCartsContainer">Discover</a>
+        </div>
+
+    </section>
+
+    <h1 class="restaurantsCartTitle">Most Popular Restaurants In Tangier</h1>
+
+    <section class="RestaurantsCartsContainer" id="RestaurantsCartsContainer">
+
+        
+
+        
+
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
